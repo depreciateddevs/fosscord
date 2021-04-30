@@ -1,6 +1,6 @@
 # FOSSCord
 ## Welcome to the official GitHub page of the FOSSCord bot!
-FreeDiscord is a Discord bot made by the reoccurtech team ([SKBotNL](https://github.com/SKBotNL), [ItsJustLag](https://github.com/ItsJustLag), [recallwhoiam](https://github.com/recallwhoiam), [Odysseus](https://github.com/Odysseus443), and [antistalker](https://github.com/stalker0000)) that you can edit and self host. This bot is 100% open source, so feel free to make forks of it, if you want. Just *please* at least give the original product some credit, and don't say you created the bot yourself. We appreciate it.
+FOSSCord is a Discord bot made by the reoccurtech team ([SKBotNL](https://github.com/SKBotNL), [ItsJustLag](https://github.com/ItsJustLag), [recallwhoiam](https://github.com/recallwhoiam), [Odysseus](https://github.com/Odysseus443), and [antistalker](https://github.com/stalker0000)) that you can edit and self host. This bot is 100% open source, so feel free to make forks of it, if you want. Just *please* at least give the original product some credit, and don't say you created the bot yourself. We appreciate it.
 If you find an issue, or have a feature suggestion, please let us know by opening an issue [here](https://github.com/reoccurtech/fosscord/issues). :)
 
 ## Documentation
