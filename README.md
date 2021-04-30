@@ -8,7 +8,7 @@ If you find an issue, or have a feature suggestion, please let us know by openin
 ### Starting the bot
 #### Make sure you have [Python 3](https://www.python.org/downloads/) installed (and put in path, if you're on Windows 10)!!!
 1. Clone the repository: `git clone https://github.com/reoccurtech/fosscord.git` and go to step 2. An alternative is to download the ZIP file, unzip it, shift + right click in the `fosscord-main` folder, click on `Open Powershell window here`, and continue with step 3.
-2. `cd` to the repository folder: `cd FreeDiscord`.
+2. `cd` to the repository folder: `cd fosscord`.
 3. Make sure all the dependencies are installed, Windows: `python -m pip install discord.py requests asyncio gitpython psutil datetime` Linux: `pip3 install discord.py requests asyncio gitpython psutil datetime`.
 4. Run `python3 setup.py` for an interative configuration creator. The bot will not run if you don't do this.
 5. Before starting, make sure the Server Members Intent is enabled in your bot settings in the Discord Developer Portal.
