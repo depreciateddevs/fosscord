@@ -31,4 +31,4 @@ There are many features of the bot. These features include:
 Like earlier said, if you have any feature requests or issues with the bot, open an issue [here](https://github.com/reoccurtech/fosscord/issues)!
 Enjoy the bot! We hope you have as much fun with it as we had programming it! :)
 
-Made with discord.py v9
+Made with discord.py v9.
