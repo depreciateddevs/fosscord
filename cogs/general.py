@@ -13,11 +13,11 @@ class General(commands.Cog):
 
     @commands.command(description='Shows information about bot instance.')
     async def about(self, ctx):
-        em = discord.Embed(title = "About FreeDiscord", description = "This bot is based off of/is the FreeDiscord bot made by SKBotNL, ItsJustLag, recallwhoiam, Quirinus, and antistalker.")
-        em.add_field(name = "Website", value = "https://freediscord.ga/")
-        em.add_field(name = "Project URL", value = "https://github.com/FreeTechnologies/FreeDiscord/")
-        em.add_field(name = "Support server", value = "https://discord.gg/VyNxSt55gj")
-        em.add_field(name = "Main bot invite link", value = "https://discord.com/oauth2/authorize?client_id=829158610965495848&permissions=8&scope=bot")
+        em = discord.Embed(title = "About this instance"")
+        em.add_field(name = "Website", value = "Coming soon")
+        em.add_field(name = "Project URL", value = "https://github.com/reoccurtech/fosscord/")
+        em.add_field(name = "Support server", value = "Coming soon")
+        em.add_field(name = "Main bot invite link", value = "Coming soon")
         servers = list(self.bot.guilds)
         serverNumber = len(servers)
         em.add_field(name = "Number of servers this instance is in", value = serverNumber)
