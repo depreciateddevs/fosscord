@@ -3,19 +3,10 @@ from discord.ext import commands
 import config
 import globalconfig
 
-description = '''List of all the commands
------------------------------------------
-This bot is based off of/is the FreeDiscord bot made by SKbotNL, ItsJustLag,
-Recall/Recallwhoiam, Quirinus, and antistalker.
-Project URL: https://github.com/FreeTechnologies/FreeDiscord/
-Support Server: https://discord.gg/VyNxSt55gj
------------------------------------------'''
-
 intents = discord.Intents.default()
 intents.members = True
 
-
-bot = commands.Bot(command_prefix=config.prefix, description=description, intents=intents)
+bot = commands.Bot(command_prefix=config.prefix, intents=intents)
 bot.remove_command('help')
 
 @bot.event
@@ -26,6 +17,7 @@ async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('------')
+    # Changes bot status to the default status when the bot starts up
     await bot.change_presence(activity=discord.Game(name='v' + globalconfig.version + " | " + config.prefix + "help"))
 
 bot.load_extension("cogs.general")
@@ -47,8 +39,7 @@ async def on_message(msg):
             await msg.channel.send("Please don't use that word", delete_after=5.0)
         else:
             await bot.process_commands(msg)
-
-    await bot.process_commands(msg)
+        await bot.process_commands(msg)
 
 @bot.event
 async def on_command_error(ctx, error):
